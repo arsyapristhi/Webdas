@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Registrasi </title>
+</head>
+<body bgcolor="#f7e5de">
+    <form action="contact.php" methode="POST">
+        <fieldset>
+            <legend align="center"><h1> &nbsp;Registrasi&nbsp; </h1></legend>
+            <p>
+                <label> Nama &ensp;&ensp;&ensp;&ensp;&ensp;&ensp; : </label>
+                <input type="text" name="nama" placeholder="Nama lengkap..." size="30" />
+            </p>
+            <p>
+                <label> Username&nbsp;&ensp;&ensp;&ensp;: </label>
+                <input type="text" name="username" placeholder="Username..." size="30" />
+            </p>
+            <p>
+                <label> Email&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;: </label>
+                <input type="email" name="email" placeholder="Email..." size="30" />
+            </p>
+            <p>
+                <label> Password&ensp;&ensp;&ensp;&ensp;: </label>
+                <input type="password" name="password" placeholder="Password..." size="30" />
+            </p>
+            <p>
+                <label> Alamat Web &ensp; : </label>
+                <input type="url" name="name" placeholder="Masukan URL Web".. size="30%"/>
+            </p>
+            <p>
+                <label> Jenis Kelamin : </label>
+                <label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki </label>
+                <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan </label>
+            </p>
+            <p>
+                <label> Tanggal Lahir  : </label>
+                <input type="date" name="tanggal"/>
+            </p>
+            <p>
+                <label> Agama &nbsp;&nbsp;&ensp;&ensp;&ensp;&ensp; : </label>
+                <select name="Agama">
+                    <option selected="select"> - - pilih - - </option>
+                    <option value="Islam"> Islam </option>
+                    <option value="Kristen"> Kristen </option>
+                    <option value="Katolik"> Katolik </option>
+                    <option value="Hindu"> Hindu </option>
+                    <option value="Budha"> Budha </option>
+                </select>
+            </p>
+            <p>
+                <label> Umur &nbsp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;: </label>
+                <input type="number" name="Umur" placeholder="Umur..." size="30%" min="10" max="90" />
+            </p>
+            <p>
+                <input type="submit" name="submit" value="Daftar" />
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
