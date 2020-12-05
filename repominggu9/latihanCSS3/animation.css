@@ -1,0 +1,23 @@
+body{
+    background: #35A9;
+    font-family: roboto;
+    text-align: center;
+}
+h1,h2{
+    color: #fff
+}
+.ketengah{
+    margin: 10px auto;
+    width: 1150px;
+}
+.kotak{
+    background: #d0c3e9;
+    width: 200px;
+    height: 200px;
+    animation-name: animasi_kotak;
+    animation-duration: 10s;
+}
+@keyframes animasi_kotak{
+    from{background:#d0c3e9;}
+    to{background:grey;}
+}
