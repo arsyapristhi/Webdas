@@ -1,6 +1,6 @@
 body{
     background: #35A9;
-    margin: 50px;
+    margin: 250px;
 }
 hr{
     width: 90%;
@@ -9,7 +9,7 @@ p{
     font-family: serif;
     line-height: 1.75em;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
 }
 i{
     font-family: sans;
