@@ -1,0 +1,22 @@
+body{
+    background: #35A9;
+    margin: 250px;
+}
+hr{
+    width: 90%;
+}   
+p{
+    font-family: serif;
+    line-height: 1.75em;
+    text-align: center;
+    padding: 20px;
+}
+i{
+    font-family: sans;
+    color: rgb(145, 253, 142);
+}
+h2{
+    font-family: sans;
+    color: #333;
+    text-align: center;
+}
